@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/512/Calculator_512.png" type="image/x-icon">
+</head>
+<body>
+<div class="calculator-grid">
+    <div class="output">
+       <div class="current-operand">
+        <input id="inputDisplay" placeholder="1234567890" type="text" disabled  >
+      </div> 
+    </div>
+  <button onclick="clrCal()" class="span-two">AC</button>
+  <button onclick="back()">DEL</button>
+  <button  onclick="addVal('/')">/</button>
+  <button onclick="addVal('1')">1</button>
+  <button  onclick="addVal('2')">2</button>
+  <button  onclick="addVal('3')">3</button>
+  <button  onclick="addVal('*')">*</button>
+  <button  onclick="addVal('4')">4</button>
+  <button  onclick="addVal('5')">5</button>
+  <button  onclick="addVal('6')">6</button>
+  <button  onclick="addVal('+')">+</button>
+  <button  onclick="addVal('7')">7</button>
+  <button  onclick="addVal('8')">8</button> 
+  <button  onclick="addVal('9')">9</button>
+  <button  onclick="addVal('-')">-</button> 
+  <button  onclick="addVal('.')">.</button>
+  <button  onclick="addVal('0')">0</button> 
+  <button   onclick="eQual()" class="span-two">=</button>   
+</div>
+
+</body>
+<script src="app.js"></script>
+</html>
